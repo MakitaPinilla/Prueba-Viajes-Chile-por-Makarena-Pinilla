@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Chile</title>
+    <meta name="Author" content="Makarena Pinilla">
+    <meta name="keywords" content="viajes , chile">
+    <link rel="shortcut icon" href="./assets/img/favicon viajes chile.png" type="png">
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- BOOTSTRAP JS -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- JQUERY -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- GOOGLE AWESOME ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ESTILOS PROPIOS CSS Y JS -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script defer src="./assets/js/script.js"></script>
+</head>
+<!-- INICIO NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-white p-3">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">
+            <img src="./assets/img/viajes.svg" alt="" width="30" height="24">
+        </a>
+        <span class="fs-1 text-start">VIAJES CHILE
+        </span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#quienesSomos">Quienes Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#destacados">Destacados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- FIN NAVBAR -->
+
+<body>
+    <!-- INICIO HEADER -->
+    <header>
+        <div class="container-fluid p-0">
+
+            <div id="inicio" class="carousel slide">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#inicio" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#inicio" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+
+        </div>
+    </header>
+    <!-- FIN HEADER -->
+
+    <main>
+        <!-- INICIO SECCION QUIENES SOMOS -->
+
+        <section id="quienesSomos" class="container-fluid d-none d-sm-block text-center bg-black px-5 ">
+
+            <h2 class="fs-1 text-white py-5">¿QUIENES SOMOS?</h2>
+
+            <div class="row g-3 row-cols-md-3 row-cols-lg-3 justify-content-evenly">
+
+                <div class="col">
+                    <div class="card border-0" w-100 h-100>
+                        <i class="fa-solid fa-plane bg-info text-center fs-3 p-1" style="color: #ffffff;"></i>
+                        <div class="card-body">
+                            <p class="card-text">Viaja por Chile: Aquí encontrarás todos los destinos y lugares
+                                que debes visitar, desde el fascinante Desierto a los majestuosos Campos de Hielo Sur.
+                                Aquí encontrarás todo lo necesario para iniciar esta aventura</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card border-0" w-100 h-100>
+                        <div class="card-body">
+                            <p class="card-text">Viaja por Chile: Aquí encontrarás todos los destinos y lugares
+                                que debes visitar, desde el fascinante Desierto a los majestuosos Campos de Hielo Sur.
+                                Aquí encontrarás todo lo necesario para iniciar esta aventura</p>
+                        </div>
+                        <i class="fa-solid fa-mountain bg-info text-center fs-3 p-1" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card border-0" w-100 h-100>
+                        <i class="fa-solid fa-route bg-info text-center fs-3 p-1" style="color: #ffffff;"></i>
+                        <div class="card-body">
+                            <p class="card-text">Viaja por Chile: Aquí encontrarás todos los destinos y lugares
+                                que debes visitar, desde el fascinante Desierto a los majestuosos Campos de Hielo Sur.
+                                Aquí encontrarás todo lo necesario para iniciar esta aventura</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FIN SECCION QUIENES SOMOS -->
+
+        <!-- INICIO SECCION DESTACADOS -->
+        <section id="destacados" class="container-fluid text-center bg-black px-5">
+
+            <h2 class="fs-1 text-white py-5">DESTACADOS</h2>
+
+            <div class="row g-3 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 row-cols-xl-4 justify-content-evenly">
+
+                <div class="col">
+                    <div class="card" w-100 h-100>
+                        <img src="./assets/img/card1.jpg" alt="">
+                        <div class="card-body bg-info">
+                            <p class="card-text text-white">Viaja por Chile: Aquí encontrarás todos los destinos y
+                                lugares
+                                que debes visitar, desde el fascinante Desierto a los majestuosos Campos de Hielo Sur.
+                                Aquí encontrarás todo lo necesario para iniciar esta aventura</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" w-100 h-100>
+                        <img src="./assets/img/card2.jpg" alt="">
+                        <div class="card-body bg-info">
+                            <p class="card-text text-white">Viaja por Chile: Aquí encontrarás todos los destinos y
+                                lugares
+                                que debes visitar, desde el fascinante Desierto a los majestuosos Campos de Hielo Sur.
+                                Aquí encontrarás todo lo necesario para iniciar esta aventura</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" w-100 h-100>
+                        <img src="./assets/img/card3.jpg" alt="">
+                        <div class="card-body bg-info">
+                            <p class="card-text text-white">Viaja por Chile: Aquí encontrarás todos los destinos y
+                                lugares
+                                que debes visitar, desde el fascinante Desierto a los majestuosos Campos de Hielo Sur.
+                                Aquí encontrarás todo lo necesario para iniciar esta aventura</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" w-100 h-100>
+                        <img src="./assets/img/card4.jpg" alt="">
+                        <div class="card-body bg-info">
+                            <p class="card-text text-white">Viaja por Chile: Aquí encontrarás todos los destinos y
+                                lugares
+                                que debes visitar, desde el fascinante Desierto a los majestuosos Campos de Hielo Sur.
+                                Aquí encontrarás todo lo necesario para iniciar esta aventura</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- FIN SECCION DESTACADOS -->
+
+        <!-- INICIO SECCION CONTACTO -->
+        <section id="contacto" class="container-fluid bg-black px-5">
+
+            <h2 class="fs-1 text-white py-5">CONTACTO</h2>
+
+            <div>
+                <form class="fs-4 text-white pb-5">
+                    <div class="mb-3">
+                        <label for="inputName1" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="inputName1">
+
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="inputAsunto1" class="form-label">Asunto</label>
+                        <input type="text" class="form-control" id="inputAsunto1">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="inputMensaje1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="inputMensaje1" rows="3"></textarea>
+                    </div>
+
+                    <div class="py-3">
+                        <button id="enviar" type="submit" class="btn btn-primary btn-lg fs-4">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <!-- FIN SECCION FORMULARIO -->
+
+    </main>
+    <!-- INICIO SECCION FOOTER -->
+    <footer class="bg-info">
+
+        <section id="rs" class="container-fluid text-center px-5">
+
+            <div class="row col row-cols-1 row-cols-md-2 justify-content-center align-items-center text-center p-3">
+
+                <div class="col wrapper-rs-texto">
+                    <h3 class="fs-2 text-white">VIAJES CHILE</h3>
+                </div>
+
+                <div class="col wrapper-rs-icons">
+                    <a href="" target="_blank"><i class="fa-brands fa-github fa-sm fs-2"
+                            style="color: #fcfcfd;"></i></a>
+                    <a href="" target="_blank"><i class="fa-brands fa-linkedin fa-sm fs-2"
+                            style="color: #f9fafa;"></i></a>
+                    <a href="" target="_blank"><i class="fa-brands fa-twitter fa-sm fs-2"
+                            style="color: #f9fafa;"></i></a>
+                    <a href="" target="_blank"><i class="fa-brands fa-facebook fa-sm fs-2"
+                            style="color: #f9fafb;"></i></a>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+    <!-- FIN SECCION FOOTER -->
+</body>
+
+</html>

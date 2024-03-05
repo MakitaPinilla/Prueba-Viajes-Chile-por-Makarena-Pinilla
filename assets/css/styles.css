@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Sansita", sans-serif;
+}
+
+main body{
+    background-color: black;
+}
+
+
+#destacados .card{
+    border:20px;
+    border-color: aqua;
+}
+
+#rs .wrapper-rs-icons i{
+    margin-inline: 10px;
+}
