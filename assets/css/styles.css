@@ -10,6 +10,9 @@ main body{
     background-color: black;
 }
 
+html{
+    scroll-behavior: smooth;
+    } 
 
 #destacados .card{
     border:20px;
