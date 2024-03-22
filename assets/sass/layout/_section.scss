@@ -1,0 +1,39 @@
+.identidad {
+    color: $info;
+}
+
+.testimonios {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    &__image {
+        width: 70px;
+        height: 70px;
+        border-radius: 300px;
+    }
+
+    &__text {
+        color: $info;
+        size: 30px;
+        text-align: center;
+        padding: 50px;
+    }
+
+    &__tittle {
+        padding: 50px;
+        text-align: center;
+        font-size: 40px;
+        color: $info;
+    }
+
+    &__card {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

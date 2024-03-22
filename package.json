@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "node-sass": "^9.0.0"
+  },
+  "name": "pruebamodulo3",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass --watch assets/sass/main.scss:assets/css/main.css"
+  },
+  "author": "MakarenaPinilla",
+  "license": "ISC",
+  "description": ""
+}
